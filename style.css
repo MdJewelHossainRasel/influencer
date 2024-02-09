@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+}
+body{
+  padding:0 5%;
+}
+nav{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+}
+nav>ul{ 
+  display: flex;
+}
+nav li{
+  list-style: none;
+  margin-left: 25px;
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
+.head{
+  display: flex;
+}
+.head button{
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size:15px ;
+  border-radius:20px ;
+  background-color: pink;
+  color:black ;
+}
+.head button:hover{
+  background-color: orange;
+  
+}
+.popular{
+  text-align: center;
+}
+.collection{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 2em;
+  margin-right:10px;
+}
+.products {
+  padding:15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.last{
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  grid-gap: 40px;
+  margin: 40px 0;
+  align-items: center;
+}
+button{
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size:15px ;
+  background-color: pink;
+  color:black ;
+}
